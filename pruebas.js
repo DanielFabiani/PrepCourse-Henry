@@ -186,3 +186,5 @@ var arrDeStr = string.split('');
 
    }
    console.log(newArray);
+
+   //termino
