@@ -13,3 +13,4 @@ function otraFuncion() {
     "El nombre retornado por la funcion 'cuidadoConElConsoleLog' es: " + cuidadoConElConsoleLog('Daniel')
     );
 };
+

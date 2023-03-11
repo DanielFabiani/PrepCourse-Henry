@@ -8,9 +8,12 @@ class Persona {
   }
 }
 
+var daniel = new Persona ('Daniel', 37);
+daniel.saludar();
+
 class Programador extends Persona {
   constructor(nombre, edad, añosDeExperiencia) {
-    super(nombre, edad, añosDeExperiencia)
+    super(nombre, edad)
     this.añosDeExperiencia = añosDeExperiencia;
   }
   codear() {
@@ -18,9 +21,7 @@ class Programador extends Persona {
   }
 }
 
-var daniel = new Persona ('Daniel', 37);
 var programador = new Programador ('Martin', 29, 4);
-daniel.saludar();
 programador.codear();
 programador.saludar();
 

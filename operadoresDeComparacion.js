@@ -8,5 +8,7 @@ console.log(3 === '3'); // false
 //Asignación y asociatividad
 var a = 1;
 var b = 2;
-var c = a = b;
+var c = (a = b);
 console.log (c); 
+// 2
+

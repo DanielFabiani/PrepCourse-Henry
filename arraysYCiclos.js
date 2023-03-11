@@ -1,10 +1,10 @@
 
-/* var array = [1, 2, 3, 4, 5];
+var array = [1, 2, 3, 4, 5];
 // Tomamos un arreglo y hacemos un ciclo que recorre ese arreglo y nos imprime
 // en pantalla los elementos que hay en cada posicion, en este caso numeros.
 for (var i = 0; i < array.length; i++) {
   console.log(array[i]);
-} */
+}
 
 // ****ejemplo 2****
 // recibimos un string y tenemos que revisar si contiene la letra 'p'
@@ -24,8 +24,8 @@ function encontrarLetraP(string) {
 }
 
 //llamamos a la funcion y le pasamos por parametro el string que queramos revisar
-
 encontrarLetraP('javascript');
+// Si contiene a "p"
 
 // ****Ciclo while****
 
